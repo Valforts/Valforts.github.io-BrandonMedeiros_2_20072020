@@ -49,6 +49,7 @@ aside h2{
 .ico{
 	font-size: 5em;
 	color: white;
+	margin-bottom: 15px
 }
 
 .ico i{
@@ -59,6 +60,11 @@ aside h2{
 	width: 400px;
 	margin-left: -15px;
 }
+
+.loisir h2{
+	margin-bottom: 0px;
+}
+
 /* ------------------------------------Section-------------------------------------*/
 
 .fas{
@@ -105,8 +111,6 @@ em{
 
 }
 
-
-
 .titre{
 	border-bottom: 2px rgb(234,106,21) solid;
 	margin-bottom: 10px;
@@ -147,11 +151,11 @@ h4 + p{
 }
 
 #article1 .date{
-	margin-right: 120px;
+	margin-right: 110px;
 }
 
 #formationOC{
-	margin-left: -70px;
+	margin-left: -60px;
 }
 
 
@@ -171,6 +175,8 @@ ul{
 .formation, #formationOC, .exp{
 	width: 400px;
 }
+
+
 /* ------------------------------------Responsive-------------------------------------*/
 
 @media screen and (max-width: 1280px){
@@ -215,13 +221,13 @@ ul{
 
 	.exp{
 		margin-left: 150px;
-		font-size: 1.6em;
+		font-size: 2em;
 		width: 600px;
 	}
 
 	.formation, #formationOC{
 		margin-left: 150px;
-		font-size:1.6em;
+		font-size:2em;
 		width: 600px;
 	}
 
@@ -243,5 +249,9 @@ ul{
 
 	.ico i{
 		font-size: 70px;
+	}
+
+	#hat{
+		font-size: 1.8em;
 	}
 }
