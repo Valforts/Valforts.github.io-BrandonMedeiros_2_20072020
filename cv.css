@@ -136,7 +136,7 @@ h4 + p{
 }
 
 .date{
-	font-size: 1.1em;
+	
 	color: black;
 	margin-top: 10px;
 }
@@ -206,8 +206,7 @@ ul{
 	}
 
 	.date{
-		
-		font-size: 1.2em;
+		font-size: 1.6em;
 	}
 
 	#article1, #article2{
