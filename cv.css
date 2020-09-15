@@ -239,8 +239,14 @@ ul{
 		width: 100%;
 	}
 
-	.fas{
+	#article2 .fas{
 		font-size: 0.3em;
+		margin-right: 30px;
+	}
+
+	#article1 .fas{
+		font-size: 0.3em;
+		margin-right: 20px;
 	}
 
 	.far{
